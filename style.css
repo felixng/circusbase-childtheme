@@ -47,7 +47,7 @@ a.status-btn{
     cursor:text
 }
 p,span,input,.post-detail-content,li a,.show a,.lp-grid-box-description ul,.chosen-container,.accordion-title,.lp-grid-box-bottom a,time,label,#input-dropdown li a,#input-dropdown span{
-    font-family:lato,sans-serif
+    font-family:lato,sans-serif !important
 }
 h1,h2,h3,h4,h5,h1 span,h2 span,h3 span,h4 span,.question-icon,.lp-search-description p,.lp-banner-browse-txt,.lp-home-categoires span,.nearby-description p,.testimonial-description p,.lp-blog-grid-author a,.lp-blog-grid-author span,.lp-menu a,.lp-join-now li a,.lp-add-listing-btn li a,li.grayscale-dollar>span,.review-form form .form-group>label,.post-price-row .post-rice,.currency-signs li a,#menu-footer a,.footer-bottom-bar a,.footer-bottom-bar p,.footer-bottom-bar span,.city-girds a,.city-girds label,.listing-second-view .features-listing>ul>li span,.widget-box.reservation-form a.make-reservation,a.open-modal,.dashboard-content .postbox table.widefat .review-content>p>span{
     font-family:lato,sans-serif
