@@ -50,3 +50,13 @@ h1,h2,h3,h4,h5,h1 span,h2 span,h3 span,h4 span,.question-icon,.lp-search-descrip
     padding-bottom: 4px;
     background-color: rgba(0,0,0,.2)!important;
 }
+
+/* Header Images */
+body.search-results .header-with-topbar {
+    position: relative;
+    background-image: url(//connect.germanpulse.com/assets/images/heros/hero_search.jpg);
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: cover!important;
+    min-height: 400px;
+}
