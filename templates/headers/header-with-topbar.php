@@ -101,7 +101,7 @@
 						</a>
 					</div>
 				</div>
-				<div class="search-overlay">
+				<div class="search-overlay blocked">
 					<?php 
 						if(!is_front_page() && !is_page_template('template-dashboard.php')){
 							get_template_part('templates/search/top_search');

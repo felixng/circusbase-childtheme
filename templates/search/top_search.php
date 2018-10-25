@@ -1,7 +1,8 @@
 <?php
    global $listingpro_options;
    $listing_style = $listingpro_options['listing_style'];
-   if( !wp_is_mobile() && $listing_style == 4 && is_archive() ) return false;
+   //if( !wp_is_mobile() && $listing_style == 4 && is_archive() ) return false;
+   if( !wp_is_mobile() ) return false;
 
 	$sQuery = '';
 
