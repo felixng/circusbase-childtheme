@@ -36,8 +36,10 @@
 	$menuClass = '';
 	 if(!is_front_page()){
 		 $menuClass = 'col-md-6';
+		 $pullRightMenuClass = 'col-md-3';
 	 }else{
-		  $menuClass = 'col-md-8';
+		 $menuClass = 'col-md-8';
+		 $pullRightMenuClass = 'col-md-10';
 	 }
 ?>
 <header class="header-with-topbar <?php if(is_front_page()){ echo 'lp-header-bg'; } ?> <?php echo esc_attr($headerClass); ?>">
@@ -87,7 +89,7 @@
 				?>
 			</div>
 			<div class="row">
-				<div class="col-md-2 col-xs-6 lp-logo-container">
+				<div class="col-md-3 col-xs-6 lp-logo-container">
 					<div class="lp-logo">
 						<a href="<?php echo esc_url(home_url('/')); ?>">
 							<?php
@@ -101,14 +103,14 @@
 						</a>
 					</div>
 				</div>
-				<div class="search-overlay blocked col-md-7">
+				<div class="search-overlay blocked">
 					<?php 
 						if(!is_front_page() && !is_page_template('template-dashboard.php')){
 							get_template_part('templates/search/top_search');
 						}
 					?>
 				</div>
-				<div class="header-right-panel clearfix col-md-3 col-sm-3 col-xs-12">
+				<div class="header-right-panel clearfix <?php echo esc_attr($pullRightMenuClass); ?> col-sm-3 col-xs-12">
 					<?php
 						if($headerSrch == 1) {
 							if(!is_front_page() && !is_page_template('template-dashboard.php')){
