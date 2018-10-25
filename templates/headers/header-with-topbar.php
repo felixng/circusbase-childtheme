@@ -87,7 +87,7 @@
 				?>
 			</div>
 			<div class="row">
-				<div class="col-md-3 col-xs-6 lp-logo-container">
+				<div class="col-md-2 col-xs-6 lp-logo-container">
 					<div class="lp-logo">
 						<a href="<?php echo esc_url(home_url('/')); ?>">
 							<?php
@@ -101,7 +101,7 @@
 						</a>
 					</div>
 				</div>
-				<div class="search-overlay blocked">
+				<div class="search-overlay blocked col-md-7">
 					<?php 
 						if(!is_front_page() && !is_page_template('template-dashboard.php')){
 							get_template_part('templates/search/top_search');
