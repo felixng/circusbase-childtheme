@@ -102,7 +102,11 @@
 					</div>
 				</div>
 				<div class="search-overlay">
-					<?php get_template_part('templates/search/top_search'); ?>
+					<?php 
+						if(!is_front_page() && !is_page_template('template-dashboard.php')){
+							get_template_part('templates/search/top_search');
+						}
+					?>
 				</div>
 				<div class="header-right-panel clearfix col-md-3 col-sm-3 col-xs-12">
 					<?php
