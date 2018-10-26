@@ -58,7 +58,7 @@ body.archive .header-with-topbar {
     background-position: center left;
     background-repeat: no-repeat;
     background-size: cover!important;
-    min-height: 400px;
+    min-height: 500px;
 }
 
 body.archive .header-with-topbar:before {
