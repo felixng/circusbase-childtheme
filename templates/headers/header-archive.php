@@ -49,7 +49,7 @@ if( !isset($_GET['s'])){
         $sterm = $_GET['lp_s_cat'];
         $term_ID = $_GET['lp_s_cat'];
         $termo = get_term_by('id', $sterm, 'listing-category');
-        $termName = esc_html__('Results For','listingpro').' <strong class="term-name">'.$termo->name.'</strong>';
+        $termName = esc_html__('Results For','listingpro').'<br/> <span class="font-bold term-name">'.$termo->name.'</span> <br/> ';
         $parent = $termo->parent;
     }
     if(isset($_GET['lp_s_cat']) && empty($_GET['lp_s_cat']) && isset($_GET['lp_s_tag']) && !empty($_GET['lp_s_tag'])){
