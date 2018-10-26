@@ -89,7 +89,7 @@
 				?>
 			</div>
 			<div class="row">
-				<div class="col-md-3 col-xs-6 lp-logo-container">
+				<div class="col-md-2 col-xs-6 lp-logo-container">
 					<div class="lp-logo">
 						<a href="<?php echo esc_url(home_url('/')); ?>">
 							<?php
