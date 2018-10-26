@@ -73,6 +73,10 @@ body.search-results .header-with-topbar:before {
 
 
 /* Search Result Title */
+.lp-header-search .lp-title{
+    color: white;
+}
+
 .lp-header-search.archive-search{
     text-align: left;
 }
