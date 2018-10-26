@@ -70,3 +70,15 @@ body.archive .header-with-topbar:before {
     left: 0;
     background-image: linear-gradient(293deg,rgba(255,181,0,0.9) 0%,rgba(236,56,71,0.9) 100%);
 }
+
+
+/* Search Result Title */
+.lp-header-search .lp-title.col-md-10.col-sm-10 {
+    margin-top: -104px;
+    padding-left: 32px;
+}
+
+.lp-header-search .lp-title.col-md-10.col-sm-10 {
+    margin-top: -130px;
+    z-index: 9;
+}
