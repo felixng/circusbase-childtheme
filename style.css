@@ -52,7 +52,8 @@ h1,h2,h3,h4,h5,h1 span,h2 span,h3 span,h4 span,.question-icon,.lp-search-descrip
 }
 
 /* Header Images */
-body.search-results .header-with-topbar {
+body.search-results .header-with-topbar,
+body.archive .header-with-topbar {
     position: relative;
     background-image: url(//connect.germanpulse.com/assets/images/heros/hero_search.jpg);
     background-position: center left;
@@ -61,7 +62,8 @@ body.search-results .header-with-topbar {
     min-height: 500px;
 }
 
-body.search-results .header-with-topbar:before {
+body.search-results .header-with-topbar:before,
+body.archive .header-with-topbar:before {
     content: '';
     position: absolute;
     top: 0;
