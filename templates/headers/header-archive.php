@@ -128,18 +128,19 @@ if( isset( $listingpro_options['lp_archive_bg']['url']) && !empty( $listingpro_o
             <?php } ?>
         </div>
 		<?php 
-		if( !empty( $searchfilter ) && $searchfilter == '1' ){
-	?>
-        <!-- <div class="container">
+		  /* if( !empty( $searchfilter ) && $searchfilter == '1' ){
+	    ?>
+        <div class="container">
             <div class="row">
                 <?php
                 get_template_part( 'templates/headers/header-search' );
                 ?>
             </div>
-        </div> -->
+        </div>
         <?php
         get_template_part('templates/headers/filters-in-header');
         ?>
-		<?php } ?>
+		<?php } */ ?>
+
     </div>
 </div>
