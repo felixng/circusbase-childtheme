@@ -282,7 +282,7 @@ if( empty($_GET['lp_s_tag']) && isset($_GET['lp_s_tag']) && empty($_GET['lp_s_ca
 }
 ?>
 <!--==================================Section Open=================================-->
-<section class="lp-section listing-style4">
+<section class="container page-container lp-section">
     <?php
     $v2_toggle  =   '';
     $listing_style = $listingpro_options['listing_style'];

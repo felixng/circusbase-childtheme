@@ -114,14 +114,14 @@ if( isset( $listingpro_options['lp_archive_bg']['url']) && !empty( $listingpro_o
 		}
 	
 ?>
-<div class="lp-archive-banner <?php echo $emptyFIlter; ?>" style="background-image: url(<?php echo $lp_archive_bg; ?>); ">
+<div class="container lp-archive-banner <?php echo $emptyFIlter; ?>" style="background-image: url(<?php echo $lp_archive_bg; ?>); ">
 	<?php if(!empty($lp_archive_bg)){ ?>
     <div class="lp-header-overlay"></div>
 	<?php } ?>
     <div class="lp-header-search archive-search">
         <div class="lp-filter-top-text row">
             <?php if(is_search()){ ?>
-                <div class="lp-title col-md-10 col-sm-10 <?php echo $lparchiveBGCLass; ?>">
+                <div class="lp-title col-md-12 col-sm-12 <?php echo $lparchiveBGCLass; ?>">
                     <h3>
                         <?php echo $termName; ?> 
                         <?php echo $emptySearchTitle; ?>
@@ -131,10 +131,12 @@ if( isset( $listingpro_options['lp_archive_bg']['url']) && !empty( $listingpro_o
                 </div>
 
             <?php }else{ ?>
-                <div class="lp-title col-md-10 col-sm-10 <?php echo $lparchiveBGCLass; ?>">
+                <!-- Page: /location/london/ -->
+                <div class="lp-title col-md-12 col-sm-12 <?php echo $lparchiveBGCLass; ?>">
                     <h3>
                         <?php echo esc_html__( 'Results For ', 'listingpro' );?> 
-                        <span class="font-bold term-name"><?php echo $termName; ?></span>
+                        <br>
+                        <span class="font-bold term-name"><?php echo $termName; ?></strong>
                         <?php echo esc_html__( ' Listings', 'listingpro' );?> 
                     </h3>
                 </div>

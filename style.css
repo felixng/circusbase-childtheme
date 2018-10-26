@@ -75,20 +75,34 @@ body.archive .header-with-topbar:before {
 
 
 /* Search Result Title */
-.lp-header-search .lp-title h3{
-    color: white;
+.lp-archive-banner{
+    background: transparent !important; /* #f0f3f6 */
 }
 
 .lp-header-search.archive-search{
-    text-align: left;
+    text-align: left !important;
 }
 
-.lp-header-search .lp-title.col-md-10.col-sm-10 {
-    margin-top: -104px;
-    padding-left: 32px;
+.lp-header-search .lp-title h3 {
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
 }
 
-.lp-header-search .lp-title.col-md-10.col-sm-10 {
-    margin-top: -130px;
+.lp-header-search .lp-title.col-md-12.col-sm-12 {
+    margin-top: -294px;
     z-index: 9;
+}
+
+.font-bold.term-name {
+    font-family: montserrat,sans-serif!important;
+    font-size: 57px;
+    font-weight: 700!important;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 57px;
+}
+
+.lp-header-search .lp-title h3 span.font-bold, .listing-style-1 .filter-top-section .lp-title span.dename {
+    color: #fff;
 }
