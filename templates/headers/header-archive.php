@@ -137,7 +137,7 @@ if( isset( $listingpro_options['lp_archive_bg']['url']) && !empty( $listingpro_o
                         <?php echo esc_html__( 'Results For ', 'listingpro' );?> 
                         <br>
                         <span class="font-bold term-name"><?php echo $termName; ?></strong>
-                        <?php echo esc_html__( ' Listings', 'listingpro' );?> 
+                        <? /* php echo esc_html__( ' Listings', 'listingpro' ); */?> 
                     </h3>
                 </div>
             <?php } ?>

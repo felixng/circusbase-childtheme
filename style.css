@@ -59,7 +59,7 @@ body.archive .header-with-topbar {
     background-position: center left;
     background-repeat: no-repeat;
     background-size: cover!important;
-    min-height: 500px;
+    min-height: 400px;
 }
 
 body.search-results .header-with-topbar:before,
@@ -90,7 +90,7 @@ body.archive .header-with-topbar:before {
 }
 
 .lp-header-search .lp-title.col-md-12.col-sm-12 {
-    margin-top: -294px;
+    margin-top: -194px;
     z-index: 9;
 }
 
