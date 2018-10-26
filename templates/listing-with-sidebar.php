@@ -285,7 +285,7 @@
 				<div class="lp-center-content pull-left">
 					<div class="">				
 						<div class="filter-top-section pos-relative clearfix">							
-							<div class="lp-title col-md-10 col-sm-10">
+							<div class="lp-title col-md-12 col-sm-12">
 								<?php if(is_search()){ ?>
 								<h3><?php echo $termName; ?> <span class="dename"><?php echo $emptySearchTitle; ?></span><span class="font-bold"><?php echo esc_html__( ' Listings', 'listingpro' );?></span> <?php echo $locName; ?></h3>
 								<?php }else{ ?>
