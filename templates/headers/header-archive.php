@@ -121,14 +121,15 @@ if( isset( $listingpro_options['lp_archive_bg']['url']) && !empty( $listingpro_o
     <div class="lp-header-search archive-search">
         <div class="lp-filter-top-text row">
             <?php if(is_search()){ ?>
-                <h4 class="lp-title <?php echo $lparchiveBGCLass; ?>"><?php echo $termName; ?> <?php echo $emptySearchTitle; ?><?php echo esc_html__( ' Listings', 'listingpro' );?> <?php echo $locName; ?></h4>
                 <div class="lp-title col-md-10 col-sm-10 <?php echo $lparchiveBGCLass; ?>">
                     <h3>
-                        <?php echo esc_html__( 'Results For ', 'listingpro' );?> 
-                        <span class="font-bold term-name"><?php echo $termName; ?></span>
+                        <?php echo $termName; ?> 
+                        <?php echo $emptySearchTitle; ?>
                         <?php echo esc_html__( ' Listings', 'listingpro' );?> 
+                        <?php echo $locName; ?>
                     </h3>
                 </div>
+
             <?php }else{ ?>
                 <div class="lp-title col-md-10 col-sm-10 <?php echo $lparchiveBGCLass; ?>">
                     <h3>
