@@ -75,7 +75,7 @@ body.archive .header-with-topbar:before {
 
 
 /* Search Result Title */
-.lp-header-search .lp-title{
+.lp-header-search .lp-title h3{
     color: white;
 }
 
