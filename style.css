@@ -134,6 +134,51 @@ body.archive .header-with-topbar:before {
     color: #fff;
 }
 
+.header-filter.form-group .form-inline.top-search-form {
+    padding: 0 48px !important;
+}
+
+/* Search Bar Style */
+
+input.dropdown_fields {
+    height: 40px;
+    line-height: 41px;
+}
+
+.lp-menu-bar .fullwidth-header .header-filter .ui-widget.border-dropdown, .header-filter .input-group .input-group-addon.lp-border, .header-filter .input-group:first-child .input-group-addon.lp-border {
+    height: 40px;
+    padding-left: 16px;
+}
+
+.header-filter .input-group:first-child .input-group-addon.lp-border,
+.fullwidth-header .header-filter .input-group-addon.lp-border {
+    background-color: transparent;
+    border-radius: 5px 0 0 5px;
+    font-weight: 700;
+    height: 46px;
+    left: 0;
+    line-height: 40px;
+    padding: 0 0 0 4px;
+    position: absolute;
+    top: 0;
+    width: 55px;
+    z-index: 0;
+}
+
+.fullwidth-header .header-filter .chosen-container-single .chosen-single span {
+    height: 40px;
+    line-height: 41px;
+}
+
+.header-filter.form-group.pos-relative .lp-search-btn-header.pos-relative {
+    height: 40px;
+}
+
+.header-filter .lp-search-icon {
+    top: 10px;
+    left: -32px;
+}
+
 @media (max-width: 1199px){
     a.nav-icon {
         color: #fff;
@@ -146,8 +191,7 @@ body.archive .header-with-topbar:before {
         top: 10px;
         left: 10px;
     }
-    header .lp-topbar,
-    header .search-overlay  {
+    header .lp-topbar {
         display: none;
     }
 }
