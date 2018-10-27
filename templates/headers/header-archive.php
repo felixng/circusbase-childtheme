@@ -74,7 +74,7 @@ if( !isset($_GET['s'])){
             $sloc = $sloc;
             $termo = get_term_by('id', $sloc, 'location');
             if(!empty($termo)){
-                $locName = esc_html__('In ','listingpro').$termo->name;
+                $locName = esc_html__('In ','listingpro').'<br><span class="font-bold term-name">'.$termo->name.'<span>' ;
             }
         }
         else{
@@ -125,9 +125,11 @@ if( isset( $listingpro_options['lp_archive_bg']['url']) && !empty( $listingpro_o
                     <h3>
                         <?php echo $termName; ?> 
                         <span class="font-bold term-name"><?php echo $emptySearchTitle; ?></span>
-                        <br>
+                        <?php if (!empty($emptySearchTitle) || !empty($termName)) {
+                            echo '<br>'; 
+                        }?>
                         <?php echo esc_html__( ' Listings', 'listingpro' );?> 
-                        <span class="font-bold term-name"><?php echo $locName; ?></span>
+                        <?php echo $locName; ?>
                     </h3>
                 </div>
 
