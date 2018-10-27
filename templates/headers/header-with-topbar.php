@@ -39,7 +39,7 @@
 		 $pullRightMenuClass = 'col-md-3';
 	 }else{
 		 $menuClass = 'col-md-8';
-		 $pullRightMenuClass = 'col-md-10';
+		 $pullRightMenuClass = 'col-md-9';
 	 }
 ?>
 <header class="header-with-topbar <?php if(is_front_page()){ echo 'lp-header-bg'; } ?> <?php echo esc_attr($headerClass); ?>">
@@ -89,7 +89,7 @@
 				?>
 			</div>
 			<div class="row">
-				<div class="col-md-2 col-xs-6 lp-logo-container">
+				<div class="col-md-3 col-xs-6 lp-logo-container">
 					<div class="lp-logo">
 						<a href="<?php echo esc_url(home_url('/')); ?>">
 							<?php
