@@ -147,7 +147,7 @@ body.archive .header-with-topbar:before {
         left: 10px;
     }
     header .lp-topbar,
-    header .lp-header-search  {
+    header .search-overlay  {
         display: none;
     }
 }
