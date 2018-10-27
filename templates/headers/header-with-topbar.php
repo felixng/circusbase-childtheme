@@ -119,37 +119,9 @@
 						}
 					?>
 					
-					
-					<!--<div class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="slide-nav">
-						<div class="container">
-							<div class="navbar-header">
-								<a class="navbar-toggle"> 
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-								</a>
-							</div>
-							<div id="slidemenu">   
-								<?php echo listingpro_primary_logo(); ?> 
-								<div class="lp-listing-adlisting">
-									<a href="<?php echo listingpro_url('add_listing_url_mode'); ?>" class="lpl-button">
-										<?php esc_html_e('Add Listing', 'listingpro'); ?>
-									</a>
-									<a href="#" class="lpl-button md-trigger" data-modal="modal-3">
-										<?php esc_html_e('Join Now', 'listingpro'); ?>
-									</a>
-								</div>
-								<?php echo listingpro_mobile_menu(); ?>    
-							</div>
-						</div>
-					</div>-->
-					
-					
 					<div class="col-xs-5 mobile-nav-icon">
 						<a href="#menu" class="nav-icon">
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
+							<i class="fa fa-bars"></i>
 						</a>
 					</div>
 					<div class="<?php echo esc_attr($menuClass); ?> col-xs-12 lp-menu-container pull-right">
