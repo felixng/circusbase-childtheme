@@ -110,7 +110,7 @@
 						}
 					?>
 				</div>
-				<div class="header-right-panel clearfix <?php echo esc_attr($pullRightMenuClass); ?> col-sm-3 col-xs-12">
+				<div class="header-right-panel clearfix <?php echo esc_attr($pullRightMenuClass); ?> col-sm-3 col-xs-2">
 					<?php
 						if($headerSrch == 1) {
 							if(!is_front_page() && !is_page_template('template-dashboard.php')){
