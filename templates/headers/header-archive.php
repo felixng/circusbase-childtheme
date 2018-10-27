@@ -56,7 +56,7 @@ if( !isset($_GET['s'])){
         $sterm = $_GET['lp_s_tag'];
         $lpstag = $sterm;
         $termo = get_term_by('id', $sterm, 'list-tags');
-        $termName = esc_html__('Results For','listingpro').' <strong>'.$termo->name.'</strong>';
+        $termName = esc_html__('Results For','listingpro').'<br/> <span class="font-bold term-name">'.$termo->name.'</span> <br/> ';
     }
 
     if(isset($_GET['lp_s_cat']) && !empty($_GET['lp_s_cat']) && isset($_GET['lp_s_tag']) && !empty($_GET['lp_s_tag'])){
@@ -64,7 +64,7 @@ if( !isset($_GET['s'])){
         $lpstag = $sterm;
 
         $termo = get_term_by('id', $sterm, 'list-tags');
-        $termName = esc_html__('Results For','listingpro').' <strong>'.$termo->name.'</strong>';
+        $termName = esc_html__('Results For','listingpro').'<br/> <span class="font-bold term-name">'.$termo->name.'</span> <br/> ';
     }
 
     if(isset($_GET['lp_s_loc']) && !empty($_GET['lp_s_loc'])){
@@ -83,12 +83,12 @@ if( !isset($_GET['s'])){
                 $locTerm = get_term_by('name', $sloc, 'location');
                 if( !empty($locTerm) ){
                     $loc_ID = $locTerm->term_id;
-                    $locName = esc_html__('In ', 'listingpro').'<strong class="termloc-name">'.$locTerm->name.'<strong>';
+                    $locName = esc_html__('In ', 'listingpro').'<span class="font-bold term-name">'.$locTerm->name.'<span>';
                 }
 
             }
             else{
-                $locName = esc_html__('In ', 'listingpro').'<strong class="termloc-name">'.$sloc.'</strong>';
+                $locName = esc_html__('In ', 'listingpro').'<span class="font-bold term-name">'.$sloc.'</span>';
             }
         }
 
@@ -124,7 +124,8 @@ if( isset( $listingpro_options['lp_archive_bg']['url']) && !empty( $listingpro_o
                 <div class="lp-title col-md-12 col-sm-12 <?php echo $lparchiveBGCLass; ?>">
                     <h3>
                         <?php echo $termName; ?> 
-                        <?php echo $emptySearchTitle; ?>
+                        <span class="font-bold term-name"><?php echo $emptySearchTitle; ?></span>
+                        <br>
                         <?php echo esc_html__( ' Listings', 'listingpro' );?> 
                         <?php echo $locName; ?>
                     </h3>
