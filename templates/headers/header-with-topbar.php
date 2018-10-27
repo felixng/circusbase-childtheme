@@ -39,7 +39,7 @@
 		 $pullRightMenuClass = 'col-md-3';
 	 }else{
 		 $menuClass = 'col-md-8';
-		 $pullRightMenuClass = 'col-md-12';
+		 $pullRightMenuClass = 'col-md-8';
 	 }
 ?>
 <header class="header-with-topbar <?php if(is_front_page()){ echo 'lp-header-bg'; } ?> <?php echo esc_attr($headerClass); ?>">
