@@ -35,11 +35,11 @@
 	
 	$menuClass = '';
 	 if(!is_front_page()){
-		 $menuClass = 'col-md-6';
+		 $menuClass = 'col-md-12';
 		 $pullRightMenuClass = 'col-md-3';
 	 }else{
 		 $menuClass = 'col-md-8';
-		 $pullRightMenuClass = 'col-md-9';
+		 $pullRightMenuClass = 'col-md-12';
 	 }
 ?>
 <header class="header-with-topbar <?php if(is_front_page()){ echo 'lp-header-bg'; } ?> <?php echo esc_attr($headerClass); ?>">
