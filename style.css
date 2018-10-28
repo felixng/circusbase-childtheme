@@ -83,6 +83,10 @@ body.archive .header-with-topbar:before {
     background-image: linear-gradient(293deg,rgba(255,181,0,0.7) 0%,rgba(236,56,71,0.7) 100%);
 }
 
+.input-group-addon{
+    text-transform: uppercase;
+}
+
 /* Header with Top bar */
 .header-with-topbar .lp-menu-bar .lp-add-listing-btn>ul li a {
     font-size: 14px;
